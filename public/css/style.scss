@@ -779,16 +779,15 @@
 			font-style: normal;
 			font-weight: normal;
 			line-height: 1;
-			-webkit-font-smoothing:antialiased;
-			-moz-osx-font-smoothing:grayscale;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
 		}
-		
+
 		.icon > .label {
 			display: none;
 		}
 
-		.icon.circled
-		{
+		.icon.circled {
 			position: relative;
 			display: inline-block;
 			background: #2b252c;
@@ -800,9 +799,8 @@
 			text-align: center;
 			font-size: 1.25em;
 		}
-		
-			header .icon.circled
-			{
+
+			header .icon.circled {
 				margin: 0 0 2em 0;
 			}
 
@@ -903,17 +901,14 @@
 			margin: 0;
 		}
 		
-		#header .button
-		{
-			background-color: rgba(0,0,0,0);
-			border: 2px solid #fff;
+		#header .button {
 			display: inline-block;
 			border-radius: 100%;
-			width: 2.5em;
-			height: 2.5em;
-			line-height: 2.5em;
+			width: 4.5em;
+			height: 4.5em;
+			line-height: 4.5em;
 			text-align: center;
-			font-size: 2.25em;
+			font-size: 1.25em;
 			padding: 0;
 		}
 		
@@ -1374,3 +1369,13 @@
 			{
 				text-align: center;
 			}
+
+
+#participate {
+	img {
+		width: 400px;
+	}
+	a.image{
+		text-align: center;
+	}
+}

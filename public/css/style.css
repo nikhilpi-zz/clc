@@ -620,15 +620,13 @@ header .icon.circled {
   margin: 0; }
 
 #header .button {
-  background-color: transparent;
-  border: 2px solid #fff;
   display: inline-block;
   border-radius: 100%;
-  width: 2.5em;
-  height: 2.5em;
-  line-height: 2.5em;
+  width: 4.5em;
+  height: 4.5em;
+  line-height: 4.5em;
   text-align: center;
-  font-size: 2.25em;
+  font-size: 1.25em;
   padding: 0; }
 
 #header header {
@@ -958,4 +956,9 @@ header .icon.circled {
   margin-bottom: 3em; }
 
 .carousel article p {
+  text-align: center; }
+
+#participate img {
+  width: 400px; }
+#participate a.image {
   text-align: center; }
