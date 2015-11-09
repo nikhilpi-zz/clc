@@ -627,7 +627,8 @@ header .icon.circled {
   line-height: 4.5em;
   text-align: center;
   font-size: 1.25em;
-  padding: 0; }
+  padding: 0;
+  margin-left: 10px; }
 
 #header header {
   display: inline-block; }
