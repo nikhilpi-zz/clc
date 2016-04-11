@@ -60,8 +60,10 @@
 .team #banner {
   padding-top: 1.5em; }
 .team .image.featured {
-  height: 160px;
-  overflow: hidden; }
+  height: 285px;
+  overflow: hidden; 
+  margin-bottom: 1em;
+}
 .team .image.featured img {
   position: absolute;
   margin: auto;
@@ -959,7 +961,7 @@ header .icon.circled {
 .carousel article p {
   text-align: center; }
 
-#participate img {
+img.logo {
   width: 400px; }
-#participate a.image {
+.logo_wrap {
   text-align: center; }
