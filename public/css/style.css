@@ -60,10 +60,8 @@
 .team #banner {
   padding-top: 1.5em; }
 .team .image.featured {
-  height: 285px;
-  overflow: hidden; 
-  margin-bottom: 1em;
-}
+  height: 160px;
+  overflow: hidden; }
 .team .image.featured img {
   position: absolute;
   margin: auto;
@@ -278,8 +276,8 @@ footer {
 
 .image.featured {
   display: block;
-  width: 100%;
-  margin: 0 0 4em 0; }
+  width: 30%;
+  margin: auto; }
 
 .image.left {
   float: left;
@@ -569,7 +567,7 @@ header .icon.circled {
 /*********************************************************************************/
 #header {
   position: relative;
-  background-image: url("../img/CLCphoto.jpg");
+  background-image: url("../img/header1.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -609,26 +607,17 @@ header .icon.circled {
 #header h1 {
   color: #fff;
   font-size: 3em;
-  line-height: 1em;
-  }
+  line-height: 1em; }
 
 .homepage #header h1 {
-  font-size: 4em;
-  background: #434345;
-  padding: .25em;
-  border-radius: 2em;
-   }
+  font-size: 4em; }
 
 #header h1 a {
   color: inherit; }
 
 #header header > p {
   font-size: 1.25em;
-  margin: 0; 
-  background: #434345;
-  padding: .125em;
-  border-radius: 1em;
-}
+  margin: 0; }
 
 #header .button {
   display: inline-block;
@@ -970,7 +959,7 @@ header .icon.circled {
 .carousel article p {
   text-align: center; }
 
-img.logo {
+#participate img {
   width: 400px; }
-.logo_wrap {
+#participate a.image {
   text-align: center; }
